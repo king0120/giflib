@@ -20,5 +20,5 @@ repositories {
 }
 
 dependencies {
-    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', classifier: 'sources')
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 }
